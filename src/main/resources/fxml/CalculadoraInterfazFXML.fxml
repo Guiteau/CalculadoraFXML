@@ -8,28 +8,28 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<GridPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+<GridPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
   <columnConstraints>
-      <ColumnConstraints hgrow="SOMETIMES" maxWidth="114.0" minWidth="10.0" prefWidth="114.0" />
-      <ColumnConstraints hgrow="SOMETIMES" maxWidth="118.0" minWidth="10.0" prefWidth="114.0" />
-      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="114.0" minWidth="10.0" prefWidth="114.0" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="118.0" minWidth="10.0" prefWidth="114.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
   </columnConstraints>
   <rowConstraints>
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
   </rowConstraints>
    <children>
-      <TextField fx:id="pantallaText" prefHeight="80.0" prefWidth="626.0" text="0.0" GridPane.columnSpan="5" GridPane.hgrow="ALWAYS">
+      <TextField fx:id="pantallaText" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="80.0" prefWidth="626.0" text="0.0" GridPane.columnSpan="5" GridPane.hgrow="ALWAYS">
          <GridPane.margin>
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </TextField>
-      <Button fx:id="sieteButton" mnemonicParsing="false" onAction="#OnSieteButtonAction" prefHeight="80.0" prefWidth="125.0" text="7" GridPane.rowIndex="1">
+      <Button fx:id="sieteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#OnSieteButtonAction" prefHeight="80.0" prefWidth="125.0" text="7" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
          <font>
             <Font size="18.0" />
          </font>
@@ -37,7 +37,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="ochoButton" mnemonicParsing="false" onAction="#onOchoButtonAction" prefHeight="80.0" prefWidth="125.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <Button fx:id="ochoButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onOchoButtonAction" prefHeight="80.0" prefWidth="125.0" text="8" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
          <font>
             <Font size="18.0" />
          </font>
@@ -45,7 +45,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="nueveButton" mnemonicParsing="false" onAction="#onNueveButtonAction" prefHeight="80.0" prefWidth="133.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
+      <Button fx:id="nueveButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNueveButtonAction" prefHeight="80.0" prefWidth="133.0" text="9" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
          <font>
             <Font size="18.0" />
          </font>
@@ -53,7 +53,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="cuatroButton" mnemonicParsing="false" onAction="#onCuatroButtonAction" prefHeight="80.0" prefWidth="125.0" text="4" GridPane.rowIndex="2">
+      <Button fx:id="cuatroButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCuatroButtonAction" prefHeight="80.0" prefWidth="125.0" text="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
          <font>
             <Font size="18.0" />
          </font>
@@ -61,7 +61,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="unoButton" mnemonicParsing="false" onAction="#onUnoButtonAction" prefHeight="80.0" prefWidth="125.0" text="1" GridPane.rowIndex="3">
+      <Button fx:id="unoButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onUnoButtonAction" prefHeight="80.0" prefWidth="125.0" text="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
          <font>
             <Font size="18.0" />
          </font>
@@ -69,7 +69,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="ceroButton" mnemonicParsing="false" onAction="#onCeroButtonAction" prefHeight="80.0" prefWidth="227.0" text="0" GridPane.columnSpan="2" GridPane.rowIndex="4">
+      <Button fx:id="ceroButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCeroButtonAction" prefHeight="80.0" prefWidth="227.0" text="0" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4">
          <font>
             <Font size="18.0" />
          </font>
@@ -77,7 +77,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="cincoButton" mnemonicParsing="false" onAction="#onCincoButtonAction" prefHeight="80.0" prefWidth="125.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <Button fx:id="cincoButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCincoButtonAction" prefHeight="80.0" prefWidth="125.0" text="5" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
          <font>
             <Font size="18.0" />
          </font>
@@ -85,7 +85,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="dosButton" mnemonicParsing="false" onAction="#onDosButtonAction" prefHeight="80.0" prefWidth="125.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+      <Button fx:id="dosButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onDosButtonAction" prefHeight="80.0" prefWidth="125.0" text="2" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
          <font>
             <Font size="18.0" />
          </font>
@@ -93,7 +93,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="seisButton" mnemonicParsing="false" onAction="#onSeisButtonAction" prefHeight="80.0" prefWidth="131.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+      <Button fx:id="seisButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onSeisButtonAction" prefHeight="80.0" prefWidth="131.0" text="6" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
          <font>
             <Font size="18.0" />
          </font>
@@ -101,7 +101,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="tresButton" mnemonicParsing="false" onAction="#onTresButtonAction" prefHeight="80.0" prefWidth="130.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+      <Button fx:id="tresButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onTresButtonAction" prefHeight="80.0" prefWidth="130.0" text="3" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
          <font>
             <Font size="18.0" />
          </font>
@@ -109,7 +109,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="comaButton" mnemonicParsing="false" onAction="#onComaButtonAction" prefHeight="80.0" prefWidth="134.0" text="," GridPane.columnIndex="2" GridPane.rowIndex="4">
+      <Button fx:id="comaButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onComaButtonAction" prefHeight="80.0" prefWidth="134.0" text="," GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4">
          <font>
             <Font size="18.0" />
          </font>
@@ -117,7 +117,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="masButton" mnemonicParsing="false" onAction="#onMasButtonAction" prefHeight="90.0" prefWidth="124.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
+      <Button fx:id="masButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onMasButtonAction" prefHeight="90.0" prefWidth="124.0" text="+" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4">
          <font>
             <Font size="18.0" />
          </font>
@@ -125,7 +125,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="menosButton" mnemonicParsing="false" onAction="#onMenosButtonAction" prefHeight="90.0" prefWidth="124.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3">
+      <Button fx:id="menosButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onMenosButtonAction" prefHeight="90.0" prefWidth="124.0" text="-" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
          <font>
             <Font size="18.0" />
          </font>
@@ -133,7 +133,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="multiplicarButton" mnemonicParsing="false" onAction="#onMultiplicarButtonAction" prefHeight="80.0" prefWidth="125.0" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <Button fx:id="multiplicarButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onMultiplicarButtonAction" prefHeight="80.0" prefWidth="125.0" text="*" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
          <font>
             <Font size="18.0" />
          </font>
@@ -141,7 +141,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="ceButton" mnemonicParsing="false" onAction="#onCeButtonAction" prefHeight="80.0" prefWidth="125.0" text="CE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+      <Button fx:id="ceButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCeButtonAction" prefHeight="80.0" prefWidth="125.0" text="CE" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
          <font>
             <Font size="18.0" />
          </font>
@@ -149,7 +149,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="cButton" mnemonicParsing="false" onAction="#onCButtonAction" prefHeight="80.0" prefWidth="125.0" text="C" GridPane.columnIndex="4" GridPane.rowIndex="1">
+      <Button fx:id="cButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCButtonAction" prefHeight="80.0" prefWidth="125.0" text="C" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
          <font>
             <Font size="18.0" />
          </font>
@@ -157,7 +157,7 @@
             <Insets bottom="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="dividirButton" mnemonicParsing="false" onAction="#onDividirButtonAction" prefHeight="80.0" prefWidth="125.0" text="/" GridPane.columnIndex="4" GridPane.rowIndex="2">
+      <Button fx:id="dividirButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onDividirButtonAction" prefHeight="80.0" prefWidth="125.0" text="/" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
          <font>
             <Font size="18.0" />
          </font>
@@ -165,7 +165,7 @@
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="igualButton" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#onIgualButtonAction" prefHeight="55.0" prefWidth="132.0" text="=" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.rowSpan="2">
+      <Button fx:id="igualButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onIgualButtonAction" prefHeight="55.0" prefWidth="132.0" text="=" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.rowSpan="2">
          <font>
             <Font size="18.0" />
          </font>
